@@ -1,4 +1,4 @@
-package com.jackydoge.lorebound.quest.engine.graph.node.types;
+package com.jackydoge.lorebound.quest.engine.graph.node.type;
 
 import com.jackydoge.lorebound.quest.engine.graph.node.QuestNode;
 import com.jackydoge.lorebound.quest.engine.graph.node.QuestNodeId;
@@ -9,7 +9,7 @@ import java.util.Set;
 public class ItemRelatedQuestNode extends QuestNode {
 
 
-    public ItemRelatedQuestNode(String graphId, int localId, Set<QuestNodeId> prereq, Set<QuestNodeId> next, Set<Reward> rewards, int difficulty) {
-        super(graphId, localId, prereq, next, rewards, difficulty);
+    public ItemRelatedQuestNode(Set<QuestNodeId> prereq, Set<QuestNodeId> next, Set<Reward> rewards, int difficulty) {
+        super(prereq, next, rewards, difficulty);
     }
 }
