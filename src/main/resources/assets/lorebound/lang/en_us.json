@@ -1,5 +1,33 @@
 {
   "creativetab.lorebound.lorebound": "Lorebound",
   "item.lorebound.dormant_fate_core": "Dormant Fate Core",
-  "item.lorebound.awakened_fate_core": "Awakened Fate Core"
+  "item.lorebound.awakened_fate_core": "Awakened Fate Core",
+
+  "item.lorebound.tablet_glyph_z": "Glyph Z",
+  "item.lorebound.tablet_glyph_y": "Glyph Y",
+  "item.lorebound.tablet_glyph_x": "Glyph X",
+  "item.lorebound.tablet_glyph_w": "Glyph W",
+  "item.lorebound.tablet_glyph_v": "Glyph V",
+  "item.lorebound.tablet_glyph_u": "Glyph U",
+  "item.lorebound.tablet_glyph_t": "Glyph T",
+  "item.lorebound.tablet_glyph_s": "Glyph S",
+  "item.lorebound.tablet_glyph_r": "Glyph R",
+  "item.lorebound.tablet_glyph_q": "Glyph Q",
+  "item.lorebound.tablet_glyph_p": "Glyph P",
+  "item.lorebound.tablet_glyph_o": "Glyph O",
+  "item.lorebound.tablet_glyph_n": "Glyph N",
+  "item.lorebound.tablet_glyph_m": "Glyph M",
+  "item.lorebound.tablet_glyph_l": "Glyph L",
+  "item.lorebound.tablet_glyph_k": "Glyph K",
+  "item.lorebound.tablet_glyph_j": "Glyph J",
+  "item.lorebound.tablet_glyph_i": "Glyph I",
+  "item.lorebound.tablet_glyph_h": "Glyph H",
+  "item.lorebound.tablet_glyph_g": "Glyph G",
+  "item.lorebound.tablet_glyph_f": "Glyph F",
+  "item.lorebound.tablet_glyph_e": "Glyph E",
+  "item.lorebound.tablet_glyph_d": "Glyph D",
+  "item.lorebound.tablet_glyph_c": "Glyph C",
+  "item.lorebound.tablet_glyph_b": "Glyph B",
+  "item.lorebound.tablet_glyph_a": "Glyph A"
+
 }

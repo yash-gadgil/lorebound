@@ -44,6 +44,34 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.DORMANT_FATE_CORE.get());
         basicItem(ModItems.AWAKENED_FATE_CORE.get());
 
+        basicItem(ModItems.TABLET_GLYPH_Z.get());
+        basicItem(ModItems.TABLET_GLYPH_Y.get());
+        basicItem(ModItems.TABLET_GLYPH_X.get());
+        basicItem(ModItems.TABLET_GLYPH_W.get());
+        basicItem(ModItems.TABLET_GLYPH_V.get());
+        basicItem(ModItems.TABLET_GLYPH_U.get());
+        basicItem(ModItems.TABLET_GLYPH_T.get());
+        basicItem(ModItems.TABLET_GLYPH_S.get());
+        basicItem(ModItems.TABLET_GLYPH_R.get());
+        basicItem(ModItems.TABLET_GLYPH_Q.get());
+        basicItem(ModItems.TABLET_GLYPH_P.get());
+        basicItem(ModItems.TABLET_GLYPH_O.get());
+        basicItem(ModItems.TABLET_GLYPH_N.get());
+        basicItem(ModItems.TABLET_GLYPH_M.get());
+        basicItem(ModItems.TABLET_GLYPH_L.get());
+        basicItem(ModItems.TABLET_GLYPH_K.get());
+        basicItem(ModItems.TABLET_GLYPH_J.get());
+        basicItem(ModItems.TABLET_GLYPH_I.get());
+        basicItem(ModItems.TABLET_GLYPH_H.get());
+        basicItem(ModItems.TABLET_GLYPH_G.get());
+        basicItem(ModItems.TABLET_GLYPH_F.get());
+        basicItem(ModItems.TABLET_GLYPH_E.get());
+        basicItem(ModItems.TABLET_GLYPH_D.get());
+        basicItem(ModItems.TABLET_GLYPH_C.get());
+        basicItem(ModItems.TABLET_GLYPH_B.get());
+        basicItem(ModItems.TABLET_GLYPH_A.get());
+
+
     }
 
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
