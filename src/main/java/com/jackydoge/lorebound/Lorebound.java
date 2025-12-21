@@ -1,11 +1,16 @@
 package com.jackydoge.lorebound;
 
+import com.jackydoge.lorebound.gui.QuestsScreen;
 import com.jackydoge.lorebound.item.ModCreativeModeTabs;
 import com.jackydoge.lorebound.item.ModItems;
+import com.jackydoge.lorebound.util.ModKeyBinds;
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.RegisterKeyMappingsEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
+import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -62,7 +67,24 @@ public class Lorebound {
 
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+        }
 
+        @SubscribeEvent
+        public static void onRegisterKeyMappings(RegisterKeyMappingsEvent event) {
+            ModKeyBinds.registerKeybinds(event);
         }
     }
+
+    @Mod.EventBusSubscriber(modid = MOD_ID, value = Dist.CLIENT)
+    public static class ClientTickHandler {
+        @SubscribeEvent
+        public static void onClientTick(TickEvent.ClientTickEvent event) {
+            if (event.phase == TickEvent.Phase.END) {
+                while (ModKeyBinds.openQuests.consumeClick()) {
+                    Minecraft.getInstance().setScreen(new QuestsScreen());
+                }
+            }
+        }
+    }
+
 }

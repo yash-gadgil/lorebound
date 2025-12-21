@@ -28,6 +28,9 @@
   "item.lorebound.tablet_glyph_d": "Glyph D",
   "item.lorebound.tablet_glyph_c": "Glyph C",
   "item.lorebound.tablet_glyph_b": "Glyph B",
-  "item.lorebound.tablet_glyph_a": "Glyph A"
+  "item.lorebound.tablet_glyph_a": "Glyph A",
+  "key.lorebound.open_quests": "Open Quests",
+  "key.categories.lorebound": "Lorebound",
+  "gui.quests": "Quests"
 
 }
